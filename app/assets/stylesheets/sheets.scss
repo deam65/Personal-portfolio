@@ -1,0 +1,64 @@
+// Place all the styles related to the sheets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    margin: 0; 
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.page__container{
+    width: 100vw;
+    max-height: 100vh;
+    //position: absolute;
+    
+}
+
+.container__content{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.hero__banner{
+    
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    
+    background-image: url(/assets/heroBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.nav__font{
+    font-size: 1.5vw;
+}
+
+
+.title__font{
+    font-size: 5vw;
+    line-height: 5.5vw;
+}
+
+.body__font{
+    font-size: 3vw;
+    line-height: 3.5vw;
+    font-weight: 600;
+}
+
+.body2__font{
+    font-size: 2vw;
+    line-height: 2.5vw;
+    font-weight: 300;
+}
+
+.r__font{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
